@@ -9,11 +9,10 @@
 Este laboratorio consistía en en hacer un bypass de una autentificación de dos factores, algunas páginas que tienen este factor de seguridad te han loggeado antes de verificar el código enviado al correo electrónico. Simplemente puedes acceder a la cuenta sin tener que verificar el código.
 
 ![[Pasted image 20240507121416.png]]
-### Teoría - SSRF
-
+### Teoría
 *Conceptos nuevos*
 
-**lo** (linux)
+**lo** (linux) -> [[23. loopback]]
 >  La interfaz de red Loopback (también conocida como `lo`) es una emulación de una tarjeta de red dentro del propio dispositivo. Aunque no es una tarjeta de red física real, se comporta de manera similar a una tarjeta de red en términos de cómo se accede y se utiliza.
 >  
 >  La interfaz de bucle de retorno se crea durante la inicialización del sistema operativo y está siempre presente en el sistema. Es una forma eficiente de permitir que los programas en un dispositivo se comuniquen entre sí a través de la red, incluso cuando no hay interfaces de red físicas presentes o configuradas.
@@ -60,3 +59,4 @@ He subido un archivo php porque al subir el avatar me dejaba, entonces he enviad
 
 Este lab era lo mismo que el anterior, con la diferencia que en este lab tenías que subir el fichero modificando la petición http modificando el content type del archivo al de una imagen.
 
+#api_rest #loopback #file_upload #ssrf #2fa_bypass
